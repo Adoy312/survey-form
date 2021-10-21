@@ -1,0 +1,221 @@
+#name{
+    
+    line-height: 33px;
+    width: 90%;
+    position: relative;
+    top: 5px;
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+#email{
+    line-height: 33px;
+    width: 90%;
+    position: relative;
+    top: 5px;
+    
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem; 
+}
+#number{
+    
+    
+    width: 90%;
+    line-height: 33px;
+    position: relative;
+    top: 5px;
+    
+}
+span{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+
+#dropdown{
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+
+#comment{
+    width: 96%;
+    line-height: 8px;
+    padding-top: 18px;
+    padding-left: 9px;
+}
+
+#com{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#submit{
+    
+   
+    display: block;
+    margin: auto auto;
+    border:none;
+    background: #37a765;
+    color: white;
+}
+
+#sum{
+    background: #37a765;
+    padding: 13px;
+    color: white;
+}
+#radio{
+    margin-bottom: 13px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);;
+    
+    
+}
+
+header{
+    margin: 50px;
+    text-align: center;
+}
+
+#role{
+    width: 90%;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+#feature{
+    width: 90%;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+#name:focus{
+    outline: 1px solid blue;
+    
+}
+#email:focus{
+    outline: 1px solid blue;
+
+}
+#number:focus{
+    outline: 1px solid blue;
+
+}
+#feature:focus{
+    outline: 1px solid blue;
+
+}
+
+#role:focus{
+    outline: 1px solid blue;
+}
+
+@media  screen and (min-width: 1100px) {
+
+    body{
+        text-align: justify;
+        font-weight: 500;
+        border-radius: 0.25rem;
+        
+    }
+
+
+    #name{
+        line-height: 33px;
+        width: 95%;
+        
+    }
+    #email{
+        line-height: 33px;
+        
+        width: 95%;
+        
+    }
+
+    #number{
+        line-height: 33px;
+        width: 95%;
+    }
+
+    #role{
+        width: 95%;
+        height: 40px;
+    }
+    #dropdown{
+        margin-bottom: 17px;
+    }
+
+    #feature{
+        width: 95%;
+        height: 40px;
+    }
+    
+    #comment{
+        width: 96%;
+        line-height: 10px;
+        padding-top: 18px;
+        padding-left: 9px;
+        background: white;
+    }
+
+
+    form{
+        margin-left: 30%;
+        
+        background: rgba(27,27,50,0.8);
+        padding: 50px;
+        position: relative;
+        right: 130px;
+        
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #com{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sum{
+        width: 92%;
+    }
+
+    #name:focus{
+        outline: 1px solid blue;
+        
+    }
+    #email:focus{
+        outline: 1px solid blue;
+
+    }
+    #number:focus{
+        outline: 1px solid blue;
+
+    }
+    #feature:focus{
+        outline: 1px solid blue;
+
+    }
+
+    #role:focus{
+        outline: 1px solid blue;
+    }
+}
+
+
